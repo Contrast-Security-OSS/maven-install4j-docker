@@ -5,5 +5,5 @@ RUN \
     apt-get install -y nano && \
     apt-get install -y zip && \
     wget https://download-keycdn.ej-technologies.com/install4j/install4j_linux_8_0_4.deb && \
-    dpkg -i install4j_linux_6_1_2.deb && \
-    rm install4j_linux_6_1_2.deb
+    dpkg -i install4j_linux_8_0_4.deb && \
+    rm install4j_linux_8_0_4.deb
