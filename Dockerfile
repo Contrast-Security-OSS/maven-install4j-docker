@@ -1,4 +1,4 @@
-FROM maven:3.8.3-openjdk-17
+FROM maven:3.8.3-openjdk-17@sha256:8a66581a077762c8752a9f64f73cdd8c59e9c4446eb810417119e0436b075931
 
 RUN \
     microdnf install -y nano && \
